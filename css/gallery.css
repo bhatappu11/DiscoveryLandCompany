@@ -1,0 +1,146 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.header-content {
+    background-image: url('../assets/header-background.jpg');
+    position: relative;
+    height: 65%;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: 100% 65%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.logo-image{
+    margin-left: 60%;
+    margin-top: 30%;
+    height: 60px;
+    width: 200px;
+    cursor: pointer;
+}
+
+* { box-sizing: border-box;}
+
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+  .menu-bar {
+    display: inline;
+    cursor: pointer;
+    padding-left: 30px;
+  }
+  
+  .nav-menu{
+      display: flex;
+      margin-top: 4%;
+      margin-right: 6%;
+  }
+  
+  .nav-menu div a {
+      padding: 40px;
+  }
+  .nav-menu a {
+    font-size: 20px;
+    color: white;
+    text-align: center; 
+    text-decoration: none; 
+  }
+  .nav-menu a:hover{
+      text-decoration: underline;
+  }
+  .nav-menu .active {
+    text-decoration: underline;
+  }
+
+  .gallery-content {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      justify-content: center;
+      width: 100%;
+  }
+  .row-content{
+      display: grid;
+  }
+
+  .row-content img{
+     height: 100%;
+     width: 100%;
+  }
+
+  .row-content div {
+      text-align: center;
+      padding: 10%;
+      font-size: 135%;
+      background-color: black;
+      color: rgb(255, 255, 255);
+  }
+
+  .footer-content {
+      position: relative;
+      display: flex;
+      background-color: rgb(36, 34, 34);
+      height: 40%;
+  }
+
+  .footer-content img {
+      padding-left: 200%;
+      padding-top: 100%;
+      cursor: pointer;
+  }
+
+  .right-footer {
+      display: flex;
+      padding-left: 50%;
+      margin: 5%;
+      color: white;
+  }
+
+  .right-footer div {
+      padding-right: 50px;
+      padding-bottom: 12px;
+  }
+
+  .right-footer div a {
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      font-size: 17px;
+  }
+  .right-footer div a:hover{
+      text-decoration: underline;
+  }
+  .copyright-content{
+      color: rgb(129, 125, 125);
+      position: absolute;
+      bottom: 40px;
+      padding-left: 10%;
+  }
+  .page-heading{
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    position: absolute;
+    bottom: 50%;
+    padding-left: 15%;
+}
