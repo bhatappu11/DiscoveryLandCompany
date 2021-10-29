@@ -1,0 +1,254 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+.header-content {
+    position: relative;
+    height: 100vh;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.logo-image{
+    margin-left: 60%;
+    margin-top: 30%;
+    height: 60px;
+    width: 200px;
+    cursor: pointer;
+}
+
+* { box-sizing: border-box;}
+
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+  .menu-bar {
+    display: inline;
+    cursor: pointer;
+    padding-left: 5%;
+  }
+  
+  .nav-menu{
+      display: flex;
+      margin-top: 6%;
+      padding-left: 72%;
+  }
+  
+  .nav-menu div a {
+      padding: 40px;
+  }
+  .nav-menu a {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center; 
+    text-decoration: none; 
+    font-weight: bold;
+  }
+  .nav-menu a:hover{
+      text-decoration: underline;
+  }
+  .nav-menu .active {
+    text-decoration: underline;
+  }
+
+  .footer-content {
+    position: relative;
+    display: flex;
+    background-color: rgb(36, 34, 34);
+    height: 40%;
+    width: 100%;
+}
+
+.footer-content img {
+    padding-left: 200%;
+    padding-top: 100%;
+    cursor: pointer;
+}
+
+.right-footer {
+    display: flex;
+    padding-left: 50%;
+    margin: 5%;
+    color: white;
+}
+
+.right-footer div {
+    padding-right: 50px;
+    padding-bottom: 12px;
+}
+
+.right-footer div a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 17px;
+}
+.right-footer div a:hover{
+    text-decoration: underline;
+}
+.copyright-content{
+    color: rgb(129, 125, 125);
+    position: absolute;
+    bottom: 40px;
+    padding-left: 10%;
+}
+.page-heading{
+  color: rgb(255, 255, 255);
+  font-size: 80px;
+  position: absolute;
+  bottom: 50%;
+  padding-left: 15%;
+}
+
+
+@media (max-width: 380px) {
+  .header-content{
+      display: flex;
+      flex-direction: column;
+  }
+
+  .nav-menu{
+      flex-direction: column;
+      margin-left: 20%;
+      margin-bottom: 20%;
+  }
+  .page-heading{
+      color: rgb(255, 255, 255);
+      font-size: 50px;
+      position: absolute;
+      bottom: 0;
+      padding-left: 25%;
+  }
+  .menu-bar {
+      padding-left: 20%;
+  }
+    
+  .logo-image{
+      margin-left: 20%;
+      margin-top: 10%;
+      height: 60px;
+      width: 200px;
+      cursor: pointer;
+  }
+  .footer-content{
+      height: 150%;
+  }
+  .footer-content img {
+      height: 10%;
+      padding-left: 180%;
+      padding-top: 10%;
+      cursor: pointer;
+  }
+  .right-footer {
+      display: flex;
+      flex-direction: column;
+      padding-top: 35%;
+      padding-left: 5%;
+      color: white;
+  }
+
+}
+
+#header-video {
+    position: absolute;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+    width: 100%; 
+    height: 100%;
+  }
+  
+.header-description {
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    position: absolute;
+    bottom: 50%;
+    padding-left: 25%;
+}
+.header-description p{
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    position: absolute;
+    bottom: 5%;
+    padding-left: 2%;
+}
+.home-container{
+    background-image: url('../assets/home/home-backgrund.jpg');
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    z-index: 1;
+}
+.home-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.left-content{
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+    margin: 20px;
+}
+.text-content h2{
+    margin: 0;
+}
+
+.text-content{
+    font-size: 18px;
+    padding-bottom: 200px;
+}
+.welcome-text{
+    margin: 0;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.ourworld-text {
+    font-weight: lighter;
+    font-family:'Courier New', Courier, monospace;
+    letter-spacing: 1px;
+}
+
+.text-content p{
+    color: rgb(97, 95, 95);
+    letter-spacing: 1px;
+}
+.left-image {
+    height: 400px;
+    width: 600px;
+}
+
+.right-image {
+    height: 880px;
+    width: 600px;
+    padding-right: 10px;
+    padding-top: 100px;
+}
