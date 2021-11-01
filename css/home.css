@@ -70,9 +70,6 @@ html,body {
   .nav-menu a:hover{
       text-decoration: underline;
   }
-  .nav-menu .active {
-    text-decoration: underline;
-  }
 
   /*--footer--*/
 

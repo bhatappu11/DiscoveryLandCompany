@@ -16,7 +16,10 @@ html,body {
     display: flex;
     justify-content: space-between;
 }
-
+.nav-menu > div:nth-child(4){
+    text-decoration: underline;
+    color: whitesmoke;
+}
 
 .logo-image{
     margin-left: 60%;
@@ -72,9 +75,7 @@ html,body {
   .nav-menu a:hover{
       text-decoration: underline;
   }
-  .nav-menu .active {
-    text-decoration: underline;
-  }
+  
 
   .gallery-content {
       display: grid;
