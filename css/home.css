@@ -333,3 +333,76 @@ html,body {
     }
     
    }
+/*--globe--*/
+
+.globe-section {
+    position: relative;
+    height: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.globe-section img {
+    position: absolute;
+    z-index: -1;
+}
+
+.black-box{
+    padding-left: 50%;
+    margin-top: 5vw;
+    height: 100%;
+    width: 100%;
+}
+.black-box-left {
+    background-color: black;
+    height: 30vw;
+    padding: 2vw;
+}
+.black-box-right img {
+    width: 40%;
+    height: 28%;
+    margin-top: -33vw;
+    margin-left: 5vw;
+    padding-left: 20vw;
+    z-index: 2;
+}
+.box-content {
+    padding: 1vw;
+    margin-top: -1vw;
+}
+.sun-icon {
+    padding: 2vw;
+}
+.wind-icon {
+    padding: 2vw;
+}
+.compass-icon {
+    padding: 2vw;
+}
+.icon-text{
+    color: white;
+    padding: 2vw;
+}
+.location {
+    color: rgb(214, 210, 210);
+    font-weight: lighter;
+    font-size: 1.5rem;
+    padding: 2vw;
+}
+.title {
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    padding: 2vw;
+}
+.location-value {
+    color: whitesmoke;
+}
+.location-symbol {
+    padding-right:1vw;
+    padding-left: 2vw;
+}
+
+.box-arrow {
+    padding-left: 1vw;
+}
