@@ -439,3 +439,37 @@ html,body {
 .unselected-map {
     padding-left: 30px;
 }
+
+/*--last-section--*/
+.last-section{
+    display: flex;
+    height: 80vh;
+    margin-top: -40vw;
+    z-index: 100;
+    position: relative;
+}
+
+.last-section-images {
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+}
+
+.last-section-images img {
+    width: 100%;
+    height: 100%;
+}
+.last-section-images h2{
+    position: absolute;
+    margin-top: 35vh;
+    margin-left: 12vw;
+    color: whitesmoke;
+    font-size: 2.5rem;
+}
+.last-section-images span {
+    position: absolute;
+    margin-top: 35vh;
+    margin-left: 15vw;
+    font-size: 5rem;
+    color: whitesmoke;
+}
