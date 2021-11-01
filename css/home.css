@@ -197,8 +197,6 @@ html,body {
 }
 .home-container{
     background-image: url('../assets/home/home-backgrund.jpg');
-    width: 100%;
-    height: 100%;
     background-size: contain;
     background-position: 100%;
     background-repeat: no-repeat;
@@ -226,12 +224,13 @@ html,body {
 }
 .welcome-text{
     margin: 0;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bolder;
     font-family: 'Times New Roman', Times, serif;
 }
 
 .ourworld-text {
+    font-size: 30px;
     font-weight: lighter;
     font-family:'Courier New', Courier, monospace;
     letter-spacing: 1px;
@@ -252,3 +251,161 @@ html,body {
     padding-right: 10px;
     padding-top: 100px;
 }
+.left-content{
+    padding-bottom: 100px;
+}
+.banner-heading{
+    margin: 50px;
+}
+.arrow-buttons {
+    border-radius: 50%;
+    padding: 15px;
+    background-color: rgb(247, 242, 242);
+    border: none;
+    cursor: pointer;
+}
+
+.arrow-buttons:hover {
+    background-color: rgb(228, 225, 225);
+}
+.banner-heading h2{
+    margin: 0;
+}
+
+.banner-heading{
+    padding-left: 180px;
+    float: left;
+}
+.banner-arrows {
+    padding-top: 20px;
+    float: right;
+}
+
+.photobanner {
+    display: flex;
+    margin-top: 150px;
+    height: 800px;
+    width: 200px;
+    margin-bottom: 30px;
+   }
+.photobanner img {
+    padding-right: 20px;
+}
+
+#first {
+    animation: bannermove 20s linear infinite;
+}
+
+.text-title {
+    margin: 0;
+}
+
+.text-location {
+    margin-top: 0px;
+}
+    
+@keyframes bannermove {
+    0% {
+       margin-left: 0px;
+    }
+    100% {
+       margin-left: -2125px;
+    }
+    
+   }
+/*----------------------------------*/
+.section-5 {
+    background-color: #f3f3f3;
+    max-width: 100vh;
+    max-height: 120vh;
+    margin-right: 0px;
+}
+
+.section5-map {
+    position: relative;
+    z-index: 1;
+}
+
+.section5-details {
+    background-color: #161f1e;
+    position: relative;
+    z-index: 2;
+    top: -1100px;
+    left: 1100px;
+    max-width: 1000px;
+    height: 600px;
+}
+
+.section5-image {
+    position: relative;
+    z-index: 3;
+    top: -1800px;
+    left: 1600px;
+}
+
+.section5-arrow {
+    color: #fff;
+}
+
+.section5-content{
+    padding-left: 62px;
+    padding-right: 62px;
+    padding-bottom: 50px;
+    font-family: 'Playfair Display', serif;
+}
+
+/* .icons{
+    padding-top: 50px;
+} */
+
+.sun-icon{
+    padding-right: 62px;
+}
+
+.compass-icon{
+    padding-left: 62px;
+}
+
+.icon-text{
+    font-size: 18px;
+    color: gray;
+    font-weight: lighter;
+    padding-right: 50px;
+    padding-left: 5px;
+}
+
+.location{
+    color: gray;
+    font-size: 18px;
+    padding-bottom: 0px;
+}
+
+.title{
+    color: #fff;
+    font-size: 50px;
+}
+
+.location_value{
+    color: gray;
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+
+.section-6 {
+    display: flex;
+}
+.images{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    padding-top: 600px;
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    font-size: 80px;
+}
+
+.section6-text {
+    margin-bottom: 0px;
+}
+
