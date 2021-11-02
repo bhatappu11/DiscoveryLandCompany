@@ -365,6 +365,7 @@ html,body {
 }
 .box-content {
     padding: 1vw;
+    padding-bottom: 3vw;
     margin-top: -1vw;
 }
 .sun-icon {
