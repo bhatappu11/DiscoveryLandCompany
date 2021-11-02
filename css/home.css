@@ -297,6 +297,7 @@ html,body {
    }
 .text-block {
     position: absolute;
+    width:100%;
     display: flex;
     color: whitesmoke;
     flex-direction: column;
