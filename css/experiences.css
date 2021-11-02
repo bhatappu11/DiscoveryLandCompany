@@ -294,7 +294,7 @@ html,body {
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
-    color: rgb(54, 54, 54);
+    color: rgb(12, 11, 11);
     border: 2px solid rgb(163, 160, 160);
     margin-right: 60%;
 }
@@ -376,16 +376,3 @@ html,body {
     padding-top: 10%;
     letter-spacing: 1px;
 }
-.button {
-    position: absolute;
-    background-color: transparent;
-    border: none;
-    padding: 1.5vw 5vw;
-    text-align: center;
-    font-size: 16px;
-    cursor: pointer;
-    color: white;
-    border: 1px solid #e7e7e7;
-    margin-left: 42%;
-    margin-top: 15%;
-  }
