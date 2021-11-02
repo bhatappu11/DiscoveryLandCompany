@@ -122,12 +122,12 @@ html,body {
     position: absolute;
     bottom: 50%;
     padding-left: 25%;
+    font-family: 'Courier New', Courier, monospace;
 }
 .header-description p{
     color: rgb(255, 255, 255);
     font-size: 60px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: bold;
+    font-family: 'Noto Serif Display', serif;
     position: absolute;
     bottom: 5%;
     padding-left: 1%;
@@ -187,13 +187,14 @@ html,body {
     text-align: center;
     position: relative;
     padding: 8vw;
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Noto Serif Display', serif;
+    letter-spacing: 1px;
     font-size: 2.0rem;
 }
 .section-one .span{
     letter-spacing: 1px;
 }
-
+/*section2*/
 .section-two {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -211,13 +212,14 @@ html,body {
 }
 
 .section-two-left-title {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Noto Serif Display', serif;
     font-size: 3.5rem;
     font-weight: lighter;
 }
 
 .section-two-left-side span{
     font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
     font-size: 1.3rem;
     color: rgb(87, 84, 84);
 }
@@ -250,10 +252,10 @@ html,body {
 }
 
 .banner-heading{
-    font-weight: bold;
-    font-size: 22px;
-    font-family:'Courier New', Courier, monospace;
+    font-size: 24px;
+    font-family: 'Noto Serif Display', serif;
     padding-left: 180px;
+    letter-spacing: 1px;
     float: left;
 }
 .banner-arrows {
@@ -333,7 +335,7 @@ html,body {
 }
 .section-six-text-block h3{
     font-size: 2.5rem;
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Noto Serif Display', serif;
     font-weight: lighter;
 }
 
@@ -370,7 +372,7 @@ html,body {
 .section-eight-text-block h3{
     text-align: left;
     font-size: 2.5rem;
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Noto Serif Display', serif;
     font-weight: lighter;
 }
 

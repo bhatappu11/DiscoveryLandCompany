@@ -181,12 +181,12 @@ html,body {
     position: absolute;
     bottom: 50%;
     padding-left: 25%;
+    font-family:'Courier New', Courier, monospace;
 }
 .header-description p{
     color: rgb(255, 255, 255);
     font-size: 80px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: bold;
+    font-family: 'Noto Serif Display', serif;
     position: absolute;
     bottom: 5%;
 }
@@ -197,7 +197,7 @@ html,body {
     text-align: center;
     position: relative;
     padding: 8vw;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Noto Serif Display', serif;
     line-height: 3rem;
     font-size: 2.5rem;
     letter-spacing: 1px;
@@ -216,7 +216,7 @@ html,body {
     padding: 10vw;
 }
 .section-two-left-title {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Noto Serif Display', serif;
     font-size: 3.5rem;
     font-weight: lighter;
 }
@@ -275,7 +275,7 @@ html,body {
 
 .section-three-textblock-header{
     color: rgb(0, 0, 0);
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Noto Serif Display', serif;
     font-size: 2.5rem;
     padding-top: 1vw;
 }
@@ -342,7 +342,7 @@ html,body {
 
 .section-four-textblock-header{
     color: rgb(0, 0, 0);
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Noto Serif Display', serif;
     font-size: 2.5rem;
     padding-top: 1vw;
 }
@@ -376,3 +376,16 @@ html,body {
     padding-top: 10%;
     letter-spacing: 1px;
 }
+.our-button {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    padding: 1.5vw 5vw;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid #e7e7e7;
+    margin-left: 42%;
+    margin-top: 15%;
+  }
