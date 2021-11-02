@@ -1,0 +1,417 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+.header-content {
+    background-image: url('https://dxaurk9yhilm4.cloudfront.net/images/806/YC-DSC_0007-2_2cbd80a0345be3b5a0b7649a1a2d057f.jpg');
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: 100vw 55vw;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-menu > div:nth-child(1){
+    text-decoration: underline;
+    color: whitesmoke;
+}
+
+.logo-image{
+    margin-left: 60%;
+    margin-top: 30%;
+    height: 60px;
+    width: 200px;
+    cursor: pointer;
+}
+
+* { box-sizing: border-box;}
+
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+  .menu-bar {
+    display: inline;
+    cursor: pointer;
+    padding-left: 30px;
+  }
+  
+  .nav-menu{
+      display: flex;
+      margin-top: 4%;
+      margin-right: 6%;
+  }
+  
+  .nav-menu div a {
+      padding: 40px;
+  }
+  .nav-menu a {
+    font-size: 20px;
+    color: white;
+    text-align: center; 
+    text-decoration: none; 
+  }
+  .nav-menu a:hover{
+      text-decoration: underline;
+  }
+  .footer-content {
+    position: relative;
+    display: flex;
+    background-color: rgb(36, 34, 34);
+    height: 40%;
+}
+
+.footer-content img {
+    padding-left: 200%;
+    padding-top: 100%;
+    cursor: pointer;
+}
+
+.right-footer {
+    display: flex;
+    padding-left: 50%;
+    margin: 5%;
+    color: white;
+}
+
+.right-footer div {
+    padding-right: 50px;
+    padding-bottom: 12px;
+}
+
+.right-footer div a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 17px;
+}
+.right-footer div a:hover{
+    text-decoration: underline;
+}
+.copyright-content{
+    color: rgb(129, 125, 125);
+    position: absolute;
+    bottom: 40px;
+    padding-left: 10%;
+}
+
+.header-description {
+    color: rgb(255, 255, 255);
+    width: 50%;
+    font-size: 50px;
+    position: absolute;
+    bottom: 50%;
+    padding-left: 25%;
+}
+.header-description p{
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    position: absolute;
+    bottom: 5%;
+    padding-left: 1%;
+}
+
+@media (max-width: 380px) {
+  .header-content{
+      display: flex;
+      flex-direction: column;
+  }
+
+  .nav-menu{
+      flex-direction: column;
+      margin-left: 20%;
+      margin-bottom: 20%;
+  }
+  .page-heading{
+      color: rgb(255, 255, 255);
+      font-size: 50px;
+      position: absolute;
+      bottom: 0;
+      padding-left: 25%;
+  }
+  .menu-bar {
+      padding-left: 20%;
+  }
+    
+  .logo-image{
+      margin-left: 20%;
+      margin-top: 10%;
+      height: 60px;
+      width: 200px;
+      cursor: pointer;
+  }
+  .footer-content{
+      height: 150%;
+  }
+  .footer-content img {
+      height: 10%;
+      padding-left: 180%;
+      padding-top: 10%;
+      cursor: pointer;
+  }
+  .right-footer {
+      display: flex;
+      flex-direction: column;
+      padding-top: 35%;
+      padding-left: 5%;
+      color: white;
+  }
+
+}
+
+/*section 1*/
+.section-one{
+    display: block;
+    text-align: center;
+    position: relative;
+    padding: 8vw;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 2.0rem;
+}
+.section-one .span{
+    letter-spacing: 1px;
+}
+
+.section-two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5%;
+}
+
+.section-two-left-side {
+    padding-top: 8vw;
+    padding-left: 10vw;
+}
+
+.section-two-right-side img {
+    height: 80vh;
+    width: 40vw;
+}
+
+.section-two-left-title {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3.5rem;
+    font-weight: lighter;
+}
+
+.section-two-left-side span{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    color: rgb(87, 84, 84);
+}
+
+.section-three {
+    width: 100%;
+    margin: 5vw;
+}
+
+/*section4*/
+.banner-heading{
+    margin: 40px;
+}
+.arrow-buttons {
+    border-radius: 50%;
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 2px grey;
+    border: none;
+    cursor: pointer;
+}
+.banner-header{
+    padding-bottom: 3%;
+}
+.arrow-buttons:hover {
+    background-color: rgb(228, 225, 225);
+}
+.banner-heading h2{
+    margin: 0;
+}
+
+.banner-heading{
+    font-weight: bold;
+    font-size: 22px;
+    font-family:'Courier New', Courier, monospace;
+    padding-left: 180px;
+    float: left;
+}
+.banner-arrows {
+    padding-top: 2%;
+    padding-right: 6%;
+    float: right;
+}
+.photobanner {
+    position: relative;
+    display: flex;
+    margin-top: 150px;
+    height: 800px;
+    width: 200px;
+    margin-bottom: 30px;
+   }
+.text-block {
+    position: absolute;
+    color: whitesmoke;
+    width: 100%;
+    height: 100%;
+    /*display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;*/
+}
+.photobanner img {
+    padding-right: 20px;
+}
+#first {
+    animation: bannermove 10s linear infinite;
+}
+
+.text-title {
+    margin: -150px;
+    margin-left: 20px;
+    font-weight: normal;
+}
+
+.text-location {
+    margin-top: 150px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    font-weight: lighter;
+}
+
+@keyframes bannermove {
+    0% {
+       margin-left: 0px;
+    }
+    100% {
+       margin-left: -2125px;
+    }
+    
+   }
+
+/*section 5*/
+.section-five img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    padding-top: 15vh;
+}
+
+/*section 6*/
+.section-six{
+    display: flex;
+}
+.section-six-left-side img{
+    padding: 10vw;
+}
+
+.section-six-right-side {
+    padding: 5vw;
+    padding-top: 15vw;
+}
+.section-six-text-block{
+    padding-bottom: 40%;
+}
+.section-six-text-block h3{
+    font-size: 2.5rem;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: lighter;
+}
+
+.section-six-text-block p {
+    font-size: 1.5rem;
+    color: rgb(87, 86, 86);
+    justify-content: space-around;
+    letter-spacing: 1px;
+}
+
+/*Section 7*/
+.section-seven img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    padding-top: 15vh;
+}
+/*Section 8*/
+.section-eight{
+    display: flex;
+    direction: rtl;
+}
+.section-eight-left-side img{
+    padding: 10vw;
+}
+
+.section-eight-right-side {
+    padding: 5vw;
+    padding-top: 15vw;
+}
+.section-eight-text-block{
+    padding-bottom: 40%;
+}
+.section-eight-text-block h3{
+    text-align: left;
+    font-size: 2.5rem;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: lighter;
+}
+
+.section-eight-text-block p {
+    font-size: 1.5rem;
+    text-align: left;
+    color: rgb(87, 86, 86);
+    justify-content: space-around;
+    letter-spacing: 1px;
+}
+/*section 9*/
+.section-nine {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.section-nine img {
+    object-fit: cover;
+    height: 60vh;
+    width: 100%;
+    padding-top: 3vh;
+    z-index: -1;
+}
+.section-nine span {
+    position: absolute;
+    font-size: calc(15px + 2.0vw);
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    padding-left: 41%;
+    padding-top: 10%;
+}
+.button {
+    position: absolute;
+    background-color: transparent; /* Green */
+    border: none;
+    padding: 1.5vw 5vw;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid #e7e7e7;
+    margin-left: 42%;
+    margin-top: 15%;
+  }
