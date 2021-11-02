@@ -185,15 +185,14 @@ html,body {
     position: absolute;
     bottom: 50%;
     padding-left: 25%;
+    font-family: 'Courier New', Courier, monospace;
 }
 .header-description p{
     color: rgb(255, 255, 255);
     font-size: 80px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: bolder;
+    font-family: 'Noto Serif Display', serif;
     position: absolute;
     bottom: 5%;
-    padding-left: 2%;
 }
 /*--body section1 --*/
 .home-container{
@@ -226,8 +225,8 @@ html,body {
 .welcome-text{
     margin: 0;
     font-size: 50px;
-    font-weight: bolder;
-    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-family: 'Noto Serif Display', serif;
 }
 
 .ourworld-text {
@@ -239,7 +238,7 @@ html,body {
 
 .text-content p{
     color: rgb(97, 95, 95);
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 .left-image {
     height: 400px;
@@ -459,6 +458,7 @@ html,body {
     height: 100%;
 }
 .last-section-images h2{
+    font-weight: normal;
     position: absolute;
     margin-top: 35vh;
     margin-left: 12vw;
@@ -468,7 +468,7 @@ html,body {
 .last-section-images span {
     position: absolute;
     margin-top: 35vh;
-    margin-left: 15vw;
+    margin-left: 14vw;
     font-size: 5rem;
     color: whitesmoke;
 }
