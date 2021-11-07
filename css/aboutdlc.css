@@ -132,53 +132,6 @@ html,body {
     bottom: 5%;
 }
 
-@media (max-width: 380px) {
-  .header-content{
-      display: flex;
-      flex-direction: column;
-  }
-
-  .nav-menu{
-      flex-direction: column;
-      margin-left: 20%;
-      margin-bottom: 20%;
-  }
-  .page-heading{
-      color: rgb(255, 255, 255);
-      font-size: 50px;
-      position: absolute;
-      bottom: 0;
-      padding-left: 25%;
-  }
-  .menu-bar {
-      padding-left: 20%;
-  }
-    
-  .logo-image{
-      margin-left: 20%;
-      margin-top: 10%;
-      height: 60px;
-      width: 200px;
-      cursor: pointer;
-  }
-  .footer-content{
-      height: 150%;
-  }
-  .footer-content img {
-      height: 10%;
-      padding-left: 180%;
-      padding-top: 10%;
-      cursor: pointer;
-  }
-  .right-footer {
-      display: flex;
-      flex-direction: column;
-      padding-top: 35%;
-      padding-left: 5%;
-      color: white;
-  }
-
-}
 
 /*section 1*/
 .section-one{
@@ -417,3 +370,374 @@ html,body {
     margin-left: 42%;
     margin-top: 15%;
   }
+  @media only screen and (max-width: 1200px){
+    .header-content{
+        display: flex;
+        height: 20%;
+        background-size: 100% 40%;
+    }
+    
+    .header-description{
+        display: none;
+    }
+      
+    .logo-image{
+        margin-left: 20%;
+        margin-top: 10%;
+        height: 60px;
+        width: 150px;
+        cursor: pointer;
+    }
+    .footer-content{
+        height: 45%;
+    }
+    .footer-content img {
+        height: 10%;
+        padding-left: 180%;
+        padding-top: 10%;
+        cursor: pointer;
+    }
+    .right-footer {
+        display: flex;
+        padding-left: 20%;
+        margin: 5%;
+        color: white;
+    }
+    .section-six{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .section-eight{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-nine span{
+        font-size: 20px;
+        padding-top: 50%;
+    }
+    .section-nine button {
+        margin-top: 60%;
+    }
+    .banner-heading{
+        font-size: 14px;
+        padding-left: 10px;
+    }
+    .section-three img{
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 800px){
+    .nav-menu{
+        margin-left: 1%;
+        margin-bottom: 10%;
+    } 
+    .nav-menu div a {
+        padding: 2px;
+    }
+    .header-description{
+        display: none;
+    }
+      
+    .logo-image{
+        margin-left: 0%;
+        margin-top: 10%;
+        height: 60px;
+        width: 150px;
+        cursor: pointer;
+    }
+    .footer-content{
+        height: 50%;
+    }
+    .footer-content img {
+        height: 10%;
+        padding-left: 5%;
+        padding-top: 10%;
+        cursor: pointer;
+    }
+    .right-footer {
+        display: flex;
+        padding-left: 20%;
+        margin: 5%;
+        color: white;
+    }
+    .section-six{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .section-eight{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-nine span{
+        font-size: 20px;
+        padding-top: 50%;
+    }
+    .section-nine button {
+        margin-top: 60%;
+    }
+    .banner-heading{
+        font-size: 14px;
+        padding-left: 10px;
+    }
+    .section-three img{
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 540px) {
+    .header-content{
+        height: 30%;
+    }
+    .nav-menu{
+        flex-direction: column;
+        margin-left: 30%;
+        margin-bottom: 20%;
+    }
+    .page-heading{
+        color: rgb(255, 255, 255);
+        font-size: 50px;
+        position: absolute;
+        bottom: 0;
+        padding-left: 20%;
+    }
+    .menu-bar {
+        padding-left: 15%;
+    }
+      
+    .logo-image{
+        margin-left: 20%;
+        margin-top: 10%;
+        height: 60px;
+        width: 150px;
+        cursor: pointer;
+    }
+    .footer-content{
+        height: 50%;
+    }
+    .footer-content img {
+        height: 10%;
+        margin: auto;
+        cursor: pointer;
+    }
+    .right-footer {
+        padding-top: 15%;
+        padding-left: 0.5%;
+        color: white;
+    }
+    .section-nine span{
+        font-size: 20px;
+        padding-top: 50%;
+    }
+    .section-nine button {
+        margin-top: 60%;
+    }
+    .banner-heading{
+        font-size: 14px;
+        padding-left: 10px;
+    }
+    .section-three img{
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .header-content{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        background-size: 100vw 150vw;
+    }
+
+    .nav-menu{
+        position: absolute;
+        flex-direction: column;
+        margin-left: 35%;
+        margin-top: 55%;
+    }
+    .page-heading{
+        color: rgb(255, 255, 255);
+        font-size: 50px;
+        position: absolute;
+        bottom: 0;
+        padding-left: 25%;
+    }
+    .menu-bar {
+        padding-left: 10%;
+    }
+      
+    .logo-image{
+        margin-left: 20%;
+        margin-top: 10%;
+        height: 60px;
+        width: 150px;
+        cursor: pointer;
+    }
+    .footer-content{
+        height: 100%;
+    }
+    .footer-content img {
+        height: 10%;
+        padding-left: 180%;
+        padding-top: 10%;
+        cursor: pointer;
+    }
+    .right-footer {
+        display: flex;
+        flex-direction: column;
+        padding-top: 35%;
+        padding-left: 5%;
+        color: white;
+    }
+    .header-description{
+        display: none;
+    }
+
+    .section-one {
+        font-size: 1.2rem;
+    }
+    .section-two{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-two-right-side img {
+        padding-left: 5%;
+        width: 90%;
+    }
+    .section-three img{
+        width: 90%;
+    }
+    .banner-heading{
+        font-size: 14px;
+        padding-left: 10px;
+    }
+    .photos p{
+        font-size: 10px;
+        width: 100%;
+    }
+    .text-title{
+        font-size: 15px;
+    }
+    .photos img{
+        height: 70vh;
+    }
+    .section-six{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-six-left-side img{
+        width: 90%;
+    }
+    .section-eight{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-eight-right-side img{
+        width: 100%;
+    }
+    .section-eight-left-side img{
+        width: 90%;
+    }
+    .section-nine span{
+        font-size: 20px;
+        padding-top: 50%;
+    }
+    .section-nine button {
+        margin-top: 60%;
+    }
+        
+}
+@media only screen and (max-width:360px) {
+    .header-content{
+        display: flex;
+        flex-direction: row;
+        height: 100vh;
+        background-size: 100vw 150vw;
+    }
+    .section-one {
+        font-size: 1.2rem;
+    }
+    .section-two{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-two-right-side img {
+        padding-left: 5%;
+        width: 90%;
+    }
+    .section-three img{
+        width: 90%;
+    }
+    .banner-heading{
+        padding-left: 10px;
+    }
+    .photos p{
+        font-size: 10px;
+        width: 100%;
+    }
+    .text-title{
+        font-size: 15px;
+    }
+    .photos img{
+        height: 70vh;
+    }
+    .section-six{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-six-left-side img{
+        width: 90%;
+    }
+    .section-eight{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-eight-right-side img{
+        width: 100%;
+    }
+    .section-eight-left-side img{
+        width: 90%;
+    }
+    .section-nine span{
+        font-size: 20px;
+        padding-top: 50%;
+    }
+    .section-nine button {
+        margin-top: 60%;
+    }
+    .nav-menu{
+        position: absolute;
+        flex-direction: column;
+        margin-left: 20%;
+        margin-bottom: 20%;
+        font-size: 5px;
+    }
+    .header-description{
+        display: none;
+    }
+    .menu-bar {
+        padding-left: 20%;
+    }
+      
+    .logo-image{
+        margin-left: 20%;
+        height: 60px;
+        width: 150px;
+        cursor: pointer;
+    }
+    .footer-content{
+        height: 150%;
+    }
+    .footer-content img {
+        height: 10%;
+        padding-left: 180%;
+        padding-top: 10%;
+        cursor: pointer;
+    }
+    .right-footer {
+        display: flex;
+        flex-direction: column;
+        padding-top: 35%;
+        padding-left: 5%;
+        color: white;
+    }
+}
